@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>UFOs</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+
+<body>
+    <!--Create a container for headlines, images, and construction of table for UFO data-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>UFOs: The Truth is Out There</h1>
+                <h2>(somewhere else)</h2>
+                <img class="img-fluid" src="static/images/nasa.jpg"
+                /><br><br><br>
+                <p>To display all records, leave all search boxes empty and click any search button.</p>
+            </div>
+        </div><br>
+        
+        <!--Create a button and a text input box for entering information-->
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <button id="Click1">Click to Enter Search Date</button><br>
+                <input id ="input_field1" type="text">
+            </div>
+            <div class="col-lg-4 text-center">
+                <button id="Click2">Click to Enter Search State</button><br>
+                <input id ="input_field2" type="text">
+            </div>
+            <div class="col-lg-4 text-center">
+                <button id="Click3">Click to Enter Search Shape</button><br>
+                <input id ="input_field3" type="text">
+            </div>
+        </div><br>
+    
+        <!--Create table section-->
+        <div class="row">
+            <div class="col-lg-12">
+              <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td class="header">Date</td>
+                        <td class="header">City</td>
+                        <td class="header">State</td>
+                        <td class="header">Country</td>
+                        <td class="header">Shape</td>
+                        <td class="header">Duration</td>
+                        <td class="header">Comment</td>
+                    </tr>
+                </thead>
+                <!--Create body section-->
+                <tbody>
+                </tbody>
+              </table><br><br>  
+
+
+            </div>
+
+
+        </div>
+        
+
+
+    </div>
+<script src="static/js/data.js"></script>
+<script src="static/js/app4.js"></script>
+
+</body>
+
+
+</html>
+
+
+<!-- HTML date input functions lookup! -->

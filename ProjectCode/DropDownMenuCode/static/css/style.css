@@ -1,5 +1,4 @@
 
-
 h1{
     margin-top: 50px;
     text-align: center;
@@ -9,6 +8,13 @@ h1{
 
 h2{
     text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+
 }
 
 input{
